@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Send } from 'lucide-react';
 
 function App() {
   const [showInput, setShowInput] = useState(false);
@@ -40,7 +39,7 @@ function App() {
 
   if (!showInput) {
     return (
-      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4">
         <p className="text-3xl md:text-5xl text-white font-light tracking-wider animate-fade-in">
           Let's achieve your dreams together
         </p>
@@ -63,7 +62,7 @@ function App() {
             type="submit"
             className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
           >
-            <Send className="h-5 w-5" />
+            Send
           </button>
         </div>
       </form>
