@@ -25,7 +25,7 @@ function App() {
         utterance.voice = preferredVoice;
       }
 
-      utterance.rate = 1.0;
+      utterance.rate = 1.2;
       utterance.pitch = 0.9;
       utterance.volume = 1.0;
 
@@ -71,7 +71,7 @@ function App() {
           utterance.voice = preferredVoice;
         }
 
-        utterance.rate = 0.9;
+        utterance.rate = 1.0;
         utterance.pitch = 0.8;
         utterance.volume = 0.9;
 
